@@ -94,3 +94,8 @@
 ]
 ```
 
+## Сборка и запуск
+
+docker build -t go-test-prog -f Dockerfile.dockerfile .
+
+docker run -p 8989:8989 go-test-prog
